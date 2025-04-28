@@ -49,6 +49,6 @@ The FYP Management System provides the following functionalities:
 |------|-------------|
 | **Student** | Can sign up, log in, submit proposals, submit final projects, view meetings, announcements, and marks. |
 | **Supervisor** | Can log in, view proposals/projects, assign students, mark projects, set up meetings, and view announcements. |
-| **Admin** | Can log in, approve/reject proposals, add announcements, view submitted projects and meetings. |
+| **Admin** | Can log in, approve/reject proposals, add announcements, manage users. |
 
 ---
