@@ -1,0 +1,212 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Full-width Header */
+.header {
+  width: 100%;
+  background-color: #f5f1eb; /* Light beige */
+  padding: 15px;
+  border-bottom: 2px solid #ccc; /* Full-width horizontal line */
+}
+
+.header h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Layout container */
+.container {
+  display: flex;
+  height: calc(100vh - 50px); /* Adjust height considering header */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #f5f1eb; /* Light beige */
+  padding: 15px;
+  border-right: 1px solid #ccc;
+}
+
+/* Sidebar List */
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  padding: 12px;
+  background-color: #f8f5ef;
+  border: 1px solid #a78c6a;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+/* Active Item */
+.sidebar ul li.active {
+  background-color: #d1a97c; /* Brownish highlight */
+  border: 1px solid #815d42;
+  font-weight: bold;
+}
+
+/* Sidebar Links */
+.sidebar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  display: block;
+}
+
+/* Content Area */
+.content {
+  flex-grow: 1;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Meetings Section */
+.meetings-box {
+  width: 90%;
+  max-width: 800px;
+  background: #fdfdfd;
+  border: 1px solid #d1a97c;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.meetings-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #815d42;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #d1a97c;
+  padding-bottom: 5px;
+}
+
+/* Meeting Item */
+.meeting-item {
+  background-color: #f8f5ef;
+  padding: 15px;
+  border-left: 5px solid #d1a97c;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.meeting-item h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #815d42;
+}
+
+.meeting-item .date-time {
+  font-size: 14px;
+  font-weight: bold;
+  color: #815d42;
+  margin-bottom: 5px;
+}
+
+.meeting-item p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.meeting-item a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.meeting-item a:hover {
+  text-decoration: underline;
+}
+
+/* Create Meeting Section */
+.create-meeting-box {
+  width: 90%;
+  max-width: 800px;
+  background: #fdfdfd;
+  border: 1px solid #d1a97c;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.create-meeting-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #815d42;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #d1a97c;
+  padding-bottom: 5px;
+}
+
+/* Form Layout */
+.create-meeting-box form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.create-meeting-box label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #815d42;
+  width: 100%;
+}
+
+.create-meeting-box select,
+.create-meeting-box input,
+.create-meeting-box textarea {
+  width: calc(50% - 10px); /* Two inputs per row */
+  padding: 10px;
+  border: 1px solid #d1a97c;
+  border-radius: 5px;
+  background: #f8f5ef;
+  font-size: 14px;
+}
+
+/* Ensure Notes take full width */
+.create-meeting-box textarea {
+  width: 100%;
+  resize: none;
+  height: 60px;
+}
+
+/* Submit Button */
+.create-meeting-box button {
+  width: 100%;
+  padding: 12px;
+  background: #d1a97c;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.create-meeting-box button:hover {
+  background: #b08968;
+}
+
+/* Success & Error Messages */
+.create-meeting-box p {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.create-meeting-box p[style*="color: green;"] {
+  color: green;
+}
+
+.create-meeting-box p[style*="color: red;"] {
+  color: red;
+}

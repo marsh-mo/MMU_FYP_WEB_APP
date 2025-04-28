@@ -1,0 +1,250 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: #f5f1eb; /* Light beige */
+  padding: 15px;
+  border-bottom: 2px solid #ccc;
+}
+
+.header h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Layout container */
+.container {
+  display: flex;
+  height: calc(100vh - 50px);
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #f5f1eb;
+  padding: 15px;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  padding: 12px;
+  background-color: #f8f5ef;
+  border: 1px solid #a78c6a;
+  margin-bottom: 6px;
+}
+
+/* Active Item */
+.sidebar ul li.active {
+  background-color: #d1a97c; /* Brownish highlight */
+  border: 1px solid #815d42;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  display: block;
+}
+
+/* Content Area */
+.content {
+  flex-grow: 1;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Proposal Section */
+.proposal-box {
+  width: 90%;
+  max-width: 800px;
+  background: #fdfdfd;
+  border: 1px solid #d1a97c;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.proposal-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #815d42;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #d1a97c;
+  padding-bottom: 5px;
+}
+
+.proposal-box p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Proposal Form Styling */
+.proposal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* Input Group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #815d42;
+}
+
+.form-group input[type="text"],
+.form-group input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #d1a97c;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #b98b69;
+}
+
+/* View Assigned FYP Section */
+.fyp-box {
+  width: 90%;
+  max-width: 800px;
+  background: #fdfdfd;
+  border: 1px solid #d1a97c;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.fyp-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #815d42;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #d1a97c;
+  padding-bottom: 5px;
+}
+
+.fyp-box p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Supervisor Details Box */
+.supervisor-box {
+  width: 90%;
+  max-width: 800px;
+  background: #fdfdfd;
+  border: 1px solid #d1a97c;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.supervisor-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #815d42;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #d1a97c;
+  padding-bottom: 5px;
+}
+
+.supervisor-box p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Submission Box */
+.submission-box {
+  width: 90%;
+  max-width: 800px;
+  background: #fdfdfd;
+  border: 1px solid #d1a97c;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submission-box h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #815d42;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #d1a97c;
+  padding-bottom: 5px;
+}
+
+/* Submission Details */
+.submission-box p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Submission File Link */
+.submission-box a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.submission-box a:hover {
+  text-decoration: underline;
+}
+
+/* Submission Form */
+.submission-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.submission-box input[type="file"] {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.submission-box button {
+  background-color: #d1a97c;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.submission-box button:hover {
+  background-color: #b98b69;
+}

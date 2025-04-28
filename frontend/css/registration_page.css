@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+#logo {
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.login-box {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.top-section {
+  height: 110px;
+  background-color: #ef5858;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-section h2 {
+  color: white;
+  text-align: center;
+}
+
+.registration_form {
+  background-color: #5f8ab6;
+  padding: 20px 10px 20px 10px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 15px 10px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d3d3d3;
+  outline: none;
+}
+
+.icon {
+  position: absolute;
+  right: 10px;
+  color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.btn {
+  width: 150px;
+  height: 43px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e63929;
+}
+
+.submission-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkbox-container label {
+  font-size: 10px;
+}
+
+.signin-text {
+  font-size: 12px;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+#error-message {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 5px;
+  width: 100%;
+}

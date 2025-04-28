@@ -1,0 +1,98 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Full-width Header */
+.header {
+  width: 100%;
+  background-color: #f5f1eb; /* Light beige */
+  padding: 15px;
+  border-bottom: 2px solid #ccc; /* Full-width horizontal line */
+}
+
+.header h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Layout container */
+.container {
+  display: flex;
+  height: calc(100vh - 50px); /* Adjust height considering header */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #f5f1eb; /* Light beige */
+  padding: 15px;
+  border-right: 1px solid #ccc;
+}
+
+/* Sidebar List */
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  background-color: #f8f5ef;
+  border: 1px dashed #a78c6a; /* Dashed border */
+  margin-bottom: 5px;
+}
+
+/* Active Item */
+.sidebar ul li.active {
+  background-color: #d1a97c; /* Brownish highlight */
+  border: 1px solid #815d42;
+}
+
+/* Sidebar Links */
+.sidebar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  display: block;
+}
+
+/* Content Area */
+.content {
+  flex-grow: 1;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Announcements Section */
+h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/* Announcement Box */
+.announcement {
+  background-color: #f8f5ef;
+  padding: 15px;
+  border-left: 5px solid #d1a97c;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.announcement h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.announcement p {
+  font-size: 14px;
+}
+
+.date {
+  font-size: 12px;
+  color: #777;
+  display: block;
+  margin-top: 5px;
+}
